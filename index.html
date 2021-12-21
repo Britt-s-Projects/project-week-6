@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document-weather</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/1e2c16b0c3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+  <div class="container">
+    <br/>
+
+    <div class= "search-box">
+    <form class= "search-form" id = "search-form">
+     <input 
+     type="text" 
+     value="Search for city..." 
+     class ="search-bar"
+     id = "city-input">
+    <button id="search-btn" type="submit" class="search">
+    <i class="fas fa-search"></i>
+    </button>
+      </form>
+   </div>    
+<span>
+  <button class = "btn-current"
+   id = "current-location-button"
+   >Current</button>
+</span>
+    
+   <div class = "row top">
+     <div class="row">
+       <div class="col-6 city-info"> 
+       <div class= "city" id = city>Melbourne</div>
+         <div class="row">
+           <div class= "col today" id=todayDate >Monday, 26/06/2021 </div>
+          </div>
+          <div class= "col time" id=todayTime>09:00 </div>
+          
+        </div>
+        <div class="col-6 temp"> 
+          <div class= "today-temp" id=temperature> 23°C</div>
+          <div class= "col minmax">Min: <span id = min></span>°C/Max: <span id = max></span>°C </div>
+          </div>
+
+   
+      </div>
+      <div class= "row">
+        <div class= "col-6 left-info">
+          <div class = "today-img"> ⛅</div>
+
+        <ul>
+        
+          <li><span class = "weather-disc" id = description>Cloudy </span></li>
+          <li>Feels like: <span class = "feels-like" id= feels-like> </span>°C</li>
+          <li>Humidity: <span class = "humidity" id = humidity> </span>%</li>
+          <li>Wind: <span class = "wind" id = wind> </span>km/h</li> 
+        </ul>
+</div>
+        <div class= "col-6">
+          <img src="img/sun-cloud.jpg" alt="weather-img-lge" class="img-weather" 
+          width="250"> 
+        </div>
+      </div>
+  </div>
+
+  <div class="row forecast">
+   <h2>
+     Forecast</h2>
+</div>
+
+
+      <div class="row forecast-days">
+      <div class="col">Tuesday</div>
+      <div class="col">Wednesday</div>
+      <div class="col">Thursday</div>
+      <div class="col">Friday</div>
+      <div class="col">Saturday</div>
+      <div class="col">Sunday</div>
+    </div>
+    
+    
+    
+    <div class="row forecast-icon">
+      <div class="col">🌥</div>
+      <div class="col">☀</div>
+      <div class="col">🌧</div>
+      <div class="col">⛈</div>
+      <div class="col">🌫</div>
+      <div class="col">🌨</div>
+    </div>
+    
+
+     <div class="row forecast-temp">
+      <div class="col">17°C</div>
+      <div class="col">20°C</div>
+      <div class="col">14°C</div>
+      <div class="col">13°C</div>
+      <div class="col">10°C</div>
+      <div class="col">5°C</div>
+    </div>
+    </div>
+
+</div>
+<script src="src/script.js"></script>
+  </body>
+</html>

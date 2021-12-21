@@ -1,0 +1,102 @@
+button {
+background-color: cadetblue;
+border: cadetblue solid 1px;
+border-radius: 2px;
+margin: 0px;
+}
+.container {
+  border: cadetblue solid 1.5px;
+  border-radius: 6px;
+  padding: 10px 50px 55px 50px;
+  max-width: 600px;
+  margin-top: 10px;
+  background: white;
+ 
+}
+
+.search-box {
+  display: inline-block;
+  border: cadetblue solid 1.5px;
+  border-radius: 4px;
+  padding: 0px;
+  background-color: white;
+}
+
+.search-bar {
+  border: transparent;
+  padding: 0px;
+}
+
+.search-btn {
+  border: transparent 0px;
+  padding: 0px;
+  color: cadetblue;
+}
+
+
+
+.city {
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.today {
+  font-size: 20px;
+}
+
+.form-control {
+  display: inline-block;
+}
+
+.today-temp {
+  font-size: 52px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.minmax {
+  text-align: center;
+}
+.today-img {
+  font-size: 50px;
+}
+
+.img-weather {
+  border-radius: 4px;
+  margin: 0 auto;
+  border: white solid 1px;
+}
+
+h2 {
+  font-size: 22px;
+
+  padding-top: 20px;
+}
+
+.time {
+  font-size: 20px;
+}
+
+.left-info {
+  font-size: 12px;
+}
+
+.forecast-icon {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.forecast-temp {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+.forecast-days {
+  padding-bottom: 15px;
+  text-align: left;
+}
+.weather-disc {
+  font-weight: bold;
+}
