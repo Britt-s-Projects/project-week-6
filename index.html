@@ -42,26 +42,30 @@
        <div class="col-6 city-info"> 
        <div class= "city" id = city>Melbourne</div>
          <div class="row">
-           <div class= "col today" id=todayDate >Monday, 26/06/2021 </div>
+           <div class= "col today">Last Updated: <span id=todayDate >Monday, 26/06/2021</span> </div>
           </div>
           <div class= "col time" id=todayTime>09:00 </div>
           
         </div>
         <div class="col-6 temp"> 
-          <div class= "today-temp" id=temperature> 23°C</div>
-          <div class= "col minmax">Min: <span id = min></span>°C/Max: <span id = max></span>°C </div>
+          <div class= "today-temp">
+
+          <span id=temperature></span> 
+            <span class= "units"><a href = "a" id= "celsius-link" class="active">°C</a> | <a href = "a" id= "fahrenheit-link">°F</a></span>
+          </div>
+         <div class= "col minmax">Min: <span id = min></span>°/Max: <span id = max></span>°</div>
           </div>
 
    
       </div>
       <div class= "row">
         <div class= "col-6 left-info">
-          <div class = "today-img"> ⛅</div>
+          
 
         <ul>
         
           <li><span class = "weather-disc" id = description>Cloudy </span></li>
-          <li>Feels like: <span class = "feels-like" id= feels-like> </span>°C</li>
+          <li>Feels like: <span class = "feels-like" id= feels-like></span>°</li>
           <li>Humidity: <span class = "humidity" id = humidity> </span>%</li>
           <li>Wind: <span class = "wind" id = wind> </span>km/h</li> 
         </ul>
@@ -73,46 +77,11 @@
       </div>
   </div>
 
-  <div class="row forecast">
-   <h2>
-     Forecast</h2>
-</div>
 
-
-      <div class="row forecast-days">
-      <div class="col">Tuesday</div>
-      <div class="col">Wednesday</div>
-      <div class="col">Thursday</div>
-      <div class="col">Friday</div>
-      <div class="col">Saturday</div>
-      <div class="col">Sunday</div>
-    </div>
-    
-    
-    
-    <div class="row forecast-icon">
-      <div class="col">🌥</div>
-      <div class="col">☀</div>
-      <div class="col">🌧</div>
-      <div class="col">⛈</div>
-      <div class="col">🌫</div>
-      <div class="col">🌨</div>
-    </div>
-    
-
-     <div class="row forecast-temp">
-      <div class="col">17°C</div>
-      <div class="col">20°C</div>
-      <div class="col">14°C</div>
-      <div class="col">13°C</div>
-      <div class="col">10°C</div>
-      <div class="col">5°C</div>
-    </div>
-    </div>
 
 </div>
 <div class = "footer" >
-<a href="https://github.com/Britt-s-Projects/project-week-6" target = "_blank"> Github Repository</a>
+<a href="https://github.com/Britt-s-Projects/project-week-6" target = "_blank"> Open source code</a> by Brittany Smart
 </div>
 <script src="src/script.js"></script>
   </body>

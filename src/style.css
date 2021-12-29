@@ -80,6 +80,7 @@ h2 {
 
 .left-info {
   font-size: 12px;
+ padding-top: 30px;
 }
 
 .forecast-icon {
@@ -104,3 +105,22 @@ h2 {
 .footer {
   text-align: center;
 }
+
+.units {
+  font-size: 20px;
+  line-height: 1;
+  position: relative;
+top: -24px;
+
+}
+
+.today-temp .active {
+color:black;
+cursor: default;
+text-decoration: none;
+
+}
+
+.today-temp .active:hover {
+text-decoration: none;
+} 
